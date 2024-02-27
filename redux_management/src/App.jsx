@@ -1,7 +1,10 @@
+import { AddMyTodo } from "./component"
+import { MyTodos } from "./component"
 function App() {
   return (
     <>
-      <h1>Redux Management</h1>
+      <AddMyTodo />
+      <MyTodos />
     </>
   )
 }
